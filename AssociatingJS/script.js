@@ -67,7 +67,15 @@ console.log(result);
 
 var areaCode = 518;
 var firstPart = 878;
+
 var secPart = 4536;
+
+
+//Expressions -Assignment Operators
+
+var a = 3;
+a += 4;
+console.log(a);
 
 var phoneNo = String(areaCode) +firstPart + secPart;
 console.log(phoneNo)
