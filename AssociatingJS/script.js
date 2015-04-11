@@ -59,8 +59,18 @@ console.log(average);
 //console.log(average)
 var length = 7;
 var width = 6;
-var perimeter = (lenth *2) + (width *2);
+var perimeter = (length *2) + (width *2);
+//casting
+var stringVar = "6";
+var result = 7 + Number(stringVar);
+console.log(result);
 
+var areaCode = 518;
+var firstPart = 878;
+var secPart = 4536;
 
+var phoneNo = String(areaCode) +firstPart + secPart;
+console.log(phoneNo)
+;
 
 
