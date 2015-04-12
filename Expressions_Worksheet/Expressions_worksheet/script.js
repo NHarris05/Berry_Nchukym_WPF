@@ -40,6 +40,18 @@ console.log(result);
  var remainder = 120/48; //the total amount of slices times guest.
  console.log(remainder); //this was printed to show how many slices each guest ate with the amount of slices left over.
 
+/* NchukymHarris /12/15
+*Epressions_worksheet Slice of pie part 2
+ */
+
+//var guest = "48"; //set guest
+//var wholePies ="5"; //set slices of pies ordered
+//var slices = "12"; /set slices in each pie
+//var result = (12 * 5/ 48); //number of slices * pies/ guests
+//console.log(result); //printed the total amount of equation
+
+var sparkyAte = (60 /48); //the remainding amount that sparky was able to eat.
+console.log(sparkyAte);
 
 
 
