@@ -77,6 +77,20 @@ var a = 3;
 a += 4;
 console.log(a);
 
+//Promt and Alert
+
+var userInput = prompt("Enter your name");
+console.log(userInput);
+
+var width = prompt ("We are calculating the area of a rectangle.\nPlease enter the width");
+var height = prompt ("Please enter the height");
+var area = width * height;
+//console.log(area);//
+alert("The area of your rectangle is" + area);
+
+
+
+
 var phoneNo = String(areaCode) +firstPart + secPart;
 console.log(phoneNo)
 ;
