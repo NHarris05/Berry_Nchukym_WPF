@@ -23,3 +23,24 @@ console.log(result);
 
 
 //I tested my script to ensure it is functioning and properly printing what it should have.//
+
+
+/*
+*NchukymHarris 4/12/15
+*Expressions_worksheet Slice of Pie pt 1
+*/
+
+//var slices = "12"; //number of slices in each pie
+//var guests = "48"; //number of guests
+//var wholePies = "5";// number of pies ordered
+//var result = (12 * 5);// pie slices times the amount ordered
+//console.log(result);
+
+
+ var remainder = 120/48; //the total amount of slices times guest.
+ console.log(remainder); //this was printed to show how many slices each guest ate with the amount of slices left over.
+
+
+
+
+
