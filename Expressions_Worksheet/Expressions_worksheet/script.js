@@ -41,7 +41,7 @@ console.log(result);
  console.log(remainder); //this was printed to show how many slices each guest ate with the amount of slices left over.
 
 /* NchukymHarris /12/15
-*Epressions_worksheet Slice of pie part 2
+*Expressions_worksheet Slice of pie part 2
  */
 
 //var guest = "48"; //set guest
@@ -52,6 +52,30 @@ console.log(result);
 
 var sparkyAte = (60 /48); //the remainding amount that sparky was able to eat.
 console.log(sparkyAte);
+
+
+/* Nchukym Harris
+Expressions worksheet. Average shopping Bill
+ */
+
+var weeklyBudget = ["$150","$242","$125","$468","$600"];//0,1,2,3,4 //amount of money prent over a 5 week duration
+console.log(weeklyBudget);
+
+//var firstWeek = $150; overall costs per week
+//var secondWeek = $242; O.C.P.W
+//var thirdWeek = $125;   O.C.P.W
+//var fourthWeek = $468;   O.C.P.W
+//var fifthWeek = $600;//   O.C.P.W
+var total = (firstWeek + secondWeek + thirdWeek + fourthWeek + fifthWeek);
+
+console.log(total); // THE SET VAR WERE EACH WEEK AND THE COST OF THE SHOPPING
+
+var average = ( firstWeek + secondWeek + thirdWeek + fourthWeek + fifthWeek)/5;
+console.log(average);
+
+
+
+
 
 
 
