@@ -8,18 +8,18 @@
 
 //alert("What is your Name?");//
 
-var dogname = "sparky"; //assigning the name to the console//
-console.log(dogname);
+//var dogname = "sparky"; //assigning the name to the console//
+//console.log(dogname);
 
-var sparkyAge = "14";//assigning an age to the console.//
-console.log(sparkyAge);
+//var sparkyAge = "14";//assigning an age to the console.//
+//console.log(sparkyAge);
 
-var dogYears = 7;
-console.log(dogYears); //this is 7 years more than 1 year in human age//
+//var dogYears = 7;
+//console.log(dogYears); //this is 7 years more than 1 year in human age//
 
-var result = (sparkyAge * dogYears); //I multiplied var age * var dogYears to get sparkys current age//
+//var result = (sparkyAge * dogYears); //I multiplied var age * var dogYears to get sparkys current age//
 
-console.log(result);
+//console.log(result);
 
 
 //I tested my script to ensure it is functioning and properly printing what it should have.//
@@ -37,8 +37,8 @@ console.log(result);
 //console.log(result);
 
 
- var remainder = 120/48; //the total amount of slices times guest.
- console.log(remainder); //this was printed to show how many slices each guest ate with the amount of slices left over.
+ //var remainder = 120/48; //the total amount of slices times guest.
+ //console.log(remainder); //this was printed to show how many slices each guest ate with the amount of slices left over.
 
 /* NchukymHarris /12/15
 *Expressions_worksheet Slice of pie part 2
@@ -50,28 +50,58 @@ console.log(result);
 //var result = (12 * 5/ 48); //number of slices * pies/ guests
 //console.log(result); //printed the total amount of equation
 
-var sparkyAte = (60 /48); //the remainding amount that sparky was able to eat.
-console.log(sparkyAte);
+//var sparkyAte = (60 /48); //the remainding amount that sparky was able to eat.
+//console.log(sparkyAte);
 
 
 /* Nchukym Harris
 Expressions worksheet. Average shopping Bill
  */
 
-var weeklyBudget = ["$150","$242","$125","$468","$600"];//0,1,2,3,4 //amount of money prent over a 5 week duration
-console.log(weeklyBudget);
+//var weeklyBudget = ["$150","$242","$125","$468","$600"];//0,1,2,3,4 //amount of money prent over a 5 week duration
+//console.log(weeklyBudget);
 
 //var firstWeek = $150; overall costs per week
 //var secondWeek = $242; O.C.P.W
 //var thirdWeek = $125;   O.C.P.W
 //var fourthWeek = $468;   O.C.P.W
 //var fifthWeek = $600;//   O.C.P.W
-var total = (firstWeek + secondWeek + thirdWeek + fourthWeek + fifthWeek);
+//var total = (firstWeek + secondWeek + thirdWeek + fourthWeek + fifthWeek);
 
-console.log(total); // THE SET VAR WERE EACH WEEK AND THE COST OF THE SHOPPING
+//console.log(total); // THE SET VAR WERE EACH WEEK AND THE COST OF THE SHOPPING
 
-var average = ( firstWeek + secondWeek + thirdWeek + fourthWeek + fifthWeek)/5;
-console.log(average);
+//var average = ( firstWeek + secondWeek + thirdWeek + fourthWeek + fifthWeek)/5;
+//console.log(average);
+
+/* Nchukym Harris Expressions worksheet. Discounts */
+
+
+
+//var originalCost = 460; //The original cost of the item
+//console.log(originalCost);
+
+//var description = "table";
+//console.log(description); //The description of the item [what the item is]
+
+//var discount = 15; // the percentage off of the item, sale decrease
+//console.log(discount);
+
+var salesTax = "0.1"; //the sales tax on the item
+console.log(salesTax);
+
+var itemWithoutTax = 0.15 * 100 + 460; // the calculation of how much the item is without sales tax at just the sales discount.
+
+console.log(itemWithoutTax);
+var costWithtax = (10/100 * 460) + 0.15 * 100 +460;// the calculation of how much the item is with sales tax and the discount.
+
+console.log(costWithtax);
+
+
+
+
+
+
+
 
 
 
