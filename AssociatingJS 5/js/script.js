@@ -1,6 +1,22 @@
 alert("This is in the js file");
-var yearBorn = 1955;
+/*var yearBorn = 1955;*/
 /*console.log("Hello World");
 console.log(yearborn);*/
 
-   alert:("yearBorn");
+/*alert:("yearBorn");*/
+
+
+/*Declaring Variables*/
+/*Defining Variables*/
+
+/*var age; //declaration
+age = 38; //definition
+//storage container = value
+
+var yearOfBirth = 1970; //declaring and defining on the same line*/
+
+
+
+
+
+
