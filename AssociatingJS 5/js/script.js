@@ -96,6 +96,22 @@ var b = "7";
 var result = a + b;
 console.log (result);*/
 
+//Casting//
+
+var stringVar = "6";
+var result = 7 + Number(stringVar);
+console.log(result);
+
+var areaCode = 518;
+var firstPart = 456;
+var secondPart = 3478;
+
+var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) +"-" + String(secondPart);
+console.log(phoneNo);
+
+
+
+
 
 
 
