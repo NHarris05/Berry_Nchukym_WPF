@@ -83,6 +83,22 @@ console.log(perimeter);*/
 var total = orangeBins[0] + orangeBins[1] +orangeBins[2];
 console.log(total);*/
 
+//Concatenating strings, Combining Strings//
+
+/*var firstName = "Kym";
+var lastName = "harris";
+var fullName = (firstName + " " + lastName);
+console.log (fullName);*/
+
+/*var a = "6";
+var b = "7";
+
+var result = a + b;
+console.log (result);*/
+
+
+
+
 
 
 
