@@ -115,6 +115,26 @@ console.log(phoneNo);*/
 a = a + 4;
 console.log(a);*/
 
+//Prompt and Alert//
+
+/*var userInput = prompt("Enter Your Year Of Birth");
+console.log(userInput);*/
+
+/*var width = prompt("We are calculating the area\n of a rectangle");
+var height = prompt("please enter the height");
+var area = width * height;
+//console.log(area);
+
+alert("The area is" + area);*/
+
+
+
+
+
+
+
+
+
 
 
 
