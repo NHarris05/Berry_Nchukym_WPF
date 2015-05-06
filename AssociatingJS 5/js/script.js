@@ -98,7 +98,7 @@ console.log (result);*/
 
 //Casting//
 
-var stringVar = "6";
+/*var stringVar = "6";
 var result = 7 + Number(stringVar);
 console.log(result);
 
@@ -107,7 +107,15 @@ var firstPart = 456;
 var secondPart = 3478;
 
 var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) +"-" + String(secondPart);
-console.log(phoneNo);
+console.log(phoneNo);*/
+
+//Assignment Operator//
+
+/*var a = 3;
+a = a + 4;
+console.log(a);*/
+
+
 
 
 
