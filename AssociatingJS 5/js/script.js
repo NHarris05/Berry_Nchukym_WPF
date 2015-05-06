@@ -36,9 +36,17 @@ console.log(muppetNames[0]); */
 
 /*Basic Instructions*/
 
-var a = 2;
+/*var a = 2;
 a = a + 3;
-console.log(a);
+console.log(a);*/
+
+/* Example Expression*/
+
+var yearBorn = 1974;
+var age = 2012 - yearBorn;
+console.log(age);
+
+
 
 
 
