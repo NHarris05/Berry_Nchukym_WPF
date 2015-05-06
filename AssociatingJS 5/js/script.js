@@ -57,8 +57,28 @@ console.log(area);*/
 
 //Modulo finding the remainder//
 
-var remainder = 32 %10;
-console.log(remainder);
+/*var remainder = 32 %10;
+console.log(remainder);*/
+
+//Order Of Operations//
+
+var quiz1 = 87;
+var quiz2 = 60;
+var quiz3 = 100;
+var quiz4 = 80;
+
+//the average is the sum of the items divided by the number of items
+
+var average = (quiz1 + quiz2 + quiz3 + quiz4);
+console.log(average/4);
+
+var lenght = 7;
+var width = 6;
+perimeter = lenght * width;
+console.log(perimeter);
+
+
+
 
 
 
