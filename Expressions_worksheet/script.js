@@ -17,15 +17,17 @@ was what printed up the entire equation in sentence form*/
 
 
 var pies = "5";//declaration of the amount of pies ordered
-var slices = "12";//each pie has 12 slices
+var slices = "8";//each pie has 12 slices
 var totalSlices = (pies * slices);//the total amount of slices = multiply pie times slices
  console.log(totalSlices);//result to print to the console
 
-var guest = 23;//the amount of guests who attended
+var guest = 12;//the amount of guests who attended
 var result = totalSlices / guest;//figures out how many slices each guest had divide slices by guest
 console.log(result);
 
 alert("Each guest had" + result + "Slices of pizza \ at the party");//Alert that prints the total amount of slices to the screen
 
-
-
+//* Nchukym Berry Slice of Pie part 2*//
+/*var sparkyPiece = 40 % 13;//the amount of total slices divided by the guests plus sparky
+console.log(sparkyPiece); //printed to the console is the equation
+alert("Sparky Got To Have" + sparkyPiece + "Slices Of Pizza");//this is the alert the waill print to the screen*/
