@@ -55,6 +55,14 @@ var area  = width * height/2;
 
 console.log(area);*/
 
+//Modulo finding the remainder//
+
+var remainder = 32 %10;
+console.log(remainder);
+
+
+
+
 
 
 
