@@ -29,8 +29,16 @@ phrase = 'I don\'t know';*/
 
 /* Arrays*/
 
-var muppetNames = ["Kermit","Mrs Piggy","Gonzo","Rizzo"]; //index 0,1,2,3
-console.log(muppetNames[0]);
+/*var muppetNames = ["Kermit","Mrs Piggy","Gonzo","Rizzo"]; //index 0,1,2,3
+console.log(muppetNames[0]); */
+
+
+
+/*Basic Instructions*/
+
+var a = 2;
+a = a + 3;
+console.log(a);
 
 
 
