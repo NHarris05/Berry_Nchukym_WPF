@@ -16,6 +16,22 @@ age = 38; //definition
 var yearOfBirth = 1970; //declaring and defining on the same line*/
 
 
+var
+var age = 38;
+var
+var kermit = "my friend";
+var
+var isStudent = false;
+var
+var firstName = "Kermit";
+var phrase;
+phrase = 'I don\'t know';
+
+
+
+
+
+
 
 
 
