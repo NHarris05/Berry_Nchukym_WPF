@@ -69,13 +69,20 @@ var quiz4 = 80;
 
 //the average is the sum of the items divided by the number of items
 
-var average = (quiz1 + quiz2 + quiz3 + quiz4);
+/*var average = (quiz1 + quiz2 + quiz3 + quiz4);
 console.log(average/4);
 
 var lenght = 7;
 var width = 6;
 perimeter = lenght * width;
-console.log(perimeter);
+console.log(perimeter);*/
+
+//Using Array in Expressions//
+
+/*var orangeBins =[234, 567, 883];
+var total = orangeBins[0] + orangeBins[1] +orangeBins[2];
+console.log(total);*/
+
 
 
 
