@@ -33,7 +33,7 @@ alert("Sparky Got To Have" + sparkyPiece + "Slices Of Pizza");//this is the aler
 
 //* Nchukym Berry Average shopping bill*//
 
-var bill = [99, 59, 103, 88, 212];//each weeks money spent on groceries
+/*var bill = [99, 59, 103, 88, 212];//each weeks money spent on groceries
 var result = bill[0] + bill[1] + bill[2] + bill[3] + bill[4]; //adding all the bills up
 console.log(result); //printing to the console
 
@@ -43,7 +43,30 @@ var average = result/5; //divide the result by the amount of weeks to get the we
 
 console.log(average); //print average to the console
 
-alert("You spend"+ average + " \n On groceries each week"); //this is the average money spent per week printed to the screen.
+alert("You spend"+ average + " \n On groceries each week"); //this is the average money spent per week printed to the screen.*/
+
+/*Nchukym Berry
+5/6/2015
+sec -02
+Discounts expressions worksheet
+ */
+
+var originalPrice = 59.99//the original cost
+var discountPercent = 10; //percent taken off
+var item = "shoes"; //item description
+var salesTax = 9; //sales tax charged
+
+var itemCostBefore = originalPrice -6.00; //original cost - 6.00 because 10% of 59.99 is 5.999 rounds off to 6.00
+console.log(itemCostBefore); //tested to console and prints the item before sales tax cost
+
+var withSalesTax = itemCostBefore / 1.09; //divide item before sales tax by the sales tax = 1.09
+console.log(withSalesTax); //print to the console
+
+
+
+
+
+
 
 
 
