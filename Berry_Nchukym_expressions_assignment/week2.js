@@ -6,22 +6,22 @@ Expressions Assignment
 
 alert("This is a calculator for nurses \n  to see if you are \n  being over worked \n Please enter the days and hours you work each week");
 
-/*var a = prompt("Enter The first  \n day you work in the week"); //user prompt input. var set to print to console
+var a = prompt("Enter The first  \n day you work in the week"); //user prompt input. var set to print to console
 console.log(a); // printed to console
 
 var b = prompt ("How many hours \n do you work on this day?"); //var set to print to console. This number will be used in the array
 console.log(b);
 
-var c = prompt("Enter the second day you work thi week"); // this will be used the the string var
+var c = prompt("Enter the second day you work this week"); // this will be used the the string var
 console.log(c);
 
-var d = prompt("How many hours do you \n work on that day?"); //this will be used in the array
+var d = prompt("How many hours did you \n work on that day?"); //this will be used in the array
 console.log(d);
 
-var e = prompt ("Enter the last few days that you work \n in a week"); this will be used in the string var
+var e = prompt ("Enter the last few days that you work \n in a week"); //this will be used in the string var
 console.log(e);
 
-var f = prompt ("How many hours do you \n work on that day?"); // this will be used in the array
+var f = prompt ("How many hours do you \n work on those day?"); // this will be used in the array
 console.log(f);
 
 
@@ -30,7 +30,7 @@ alert("You work"  + " " + workDays + " " + "each week?");
 var answer = true; //boolean variable
 console.log(answer);
 answer = prompt ("True or False");
-*/
+
 
 
 
@@ -56,6 +56,11 @@ var firstPart = "You Have Worked";
 var secondPart = "hours this week";
 var wholeSentence = firstPart + " " +  94 + " " + secondPart;//concatenating the result of total hours
 console.log(wholeSentence); //printing to the console
+
+alert("You Worked" + " " + "94 Hours This week");//alert output to screen
+alert("You are overworked" + " " + "For sure 166" + " " + "Hours a month is killing you!");// alert to screen
+
+
 
 
 
