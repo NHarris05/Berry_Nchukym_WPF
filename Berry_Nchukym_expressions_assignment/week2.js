@@ -26,7 +26,7 @@ console.log(f);
 
 
 var workDays = [ "Monday","Tuesday", "Friday", "Saturday", "Sunday"]; // this is the string var with a prompt question after
-alert("You work" + workDays + "each week?");
+alert("You work"  + " " + workDays + " " + "each week?");
 var answer = true; //boolean variable
 console.log(answer);
 answer = prompt ("True or False");
@@ -46,6 +46,18 @@ var time; //defined var
 time = 89; //declaration
     time += 5; //assignment operator
 console.log(time); // how many hours a week were worked
+
+var stringNum = "94"; // created string variable which I will use for a subtraction equation
+var result = Number(stringNum) - 24; //casting the string var to subtract 24 hours from the total hours
+console.log(result); //printing results to the console
+
+
+var firstPart = "You Have Worked";
+var secondPart = "hours this week";
+var wholeSentence = firstPart + " " +  94 + " " + secondPart;//concatenating the result of total hours
+console.log(wholeSentence); //printing to the console
+
+
 
 
 
