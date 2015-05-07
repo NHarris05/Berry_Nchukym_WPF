@@ -16,7 +16,7 @@ was what printed up the entire equation in sentence form*/
  */
 
 
-var pies = "5";//declaration of the amount of pies ordered
+/*var pies = "5";//declaration of the amount of pies ordered
 var slices = "8";//each pie has 12 slices
 var totalSlices = (pies * slices);//the total amount of slices = multiply pie times slices
  console.log(totalSlices);//result to print to the console
@@ -31,3 +31,10 @@ alert("Each guest had" + result + "Slices of pizza \ at the party");//Alert that
 /*var sparkyPiece = 40 % 13;//the amount of total slices divided by the guests plus sparky
 console.log(sparkyPiece); //printed to the console is the equation
 alert("Sparky Got To Have" + sparkyPiece + "Slices Of Pizza");//this is the alert the waill print to the screen*/
+
+//* Nchukym Berry Average shopping bill*//
+
+var bill = [99, 59, 103, 88, 212];
+var result = bill[0] + bill[1] + bill[2] + bill[3] + bill[4];
+console.log(result);
+
