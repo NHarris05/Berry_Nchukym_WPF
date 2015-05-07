@@ -27,8 +27,10 @@ console.log(f);
 
 var workDays = [ "Monday","Tuesday", "Friday", "Saturday", "Sunday"]; // this is the string var with a prompt question after
 alert("You work" + workDays + "each week?");
-var answer = prompt("True or false");
-console.log(answer);*/
+var answer = true; //boolean variable
+console.log(answer);
+answer = prompt ("True or False");
+*/
 
 
 
@@ -39,6 +41,16 @@ console.log(hoursADay);
 
 var hoursMonthly = hoursWorked[0] + hoursWorked[1] + hoursWorked[2] + hoursWorked[3] + hoursWorked[4] * 4; // I took the index numbers from the array and multiplied by 4 to get the total amount of hours worked each month
 console.log(hoursMonthly);
+
+var time; //defined var
+time = 89; //declaration
+    time += 5; //assignment operator
+console.log(time); // how many hours a week were worked
+
+
+
+
+
 
 
 
