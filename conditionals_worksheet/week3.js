@@ -19,7 +19,7 @@ var optionDegree = "35C"; //Degrees in Celsius... If it is 35 degrees C
 //Nchukym Harris
 //check the log in//
 
- var userName = "Kym"; //The correct username that will opt the print ot message
+/* var userName = "Kym"; //The correct username that will opt the print ot message
 var password = "apple"; //The correct password that will print out the second console message
 
 var fakeUsername = prompt("ENTER YOUR USERNAME"); //create a prompt which will ask for a username. I then input a pake username
@@ -33,9 +33,20 @@ if(userName === fakeUsername){
 }else{
     console.log("Welcome Kym!"); // otherwise print this message
 
-}
+}*/
 
+//Nchukym Harris 5/11/15//
+//Movie ticket Price//
 
+var discountAge = 55; //set the discount age to 55
+var age = 50; //this is a test age to compare
+var price = 7; // price of the discounted ticket
+var time = 3; //time that a person would go to the movies
+
+(discountAge = time ) ? console.log("Your Ticket Price Is $7") :console.log("You Have To Pay Full Price");
+
+// using the ternary method to create one line of code. So if the discount age is equal to the time the ticket price will be reduced
+//otherwise, they will have to pay full price
 
 
 
