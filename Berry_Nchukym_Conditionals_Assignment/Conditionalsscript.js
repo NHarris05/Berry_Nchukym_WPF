@@ -30,7 +30,7 @@ if (area >= width || raisedBed){
      console.log("You Are All Set To Plant Your Crops!");
 //if the area is greater than the width, and the whole statment is true, than the user is ready to plant their crops.
 }else{
-    console.log("You May Need To Adjust Your Measurments");
+    console.log("You May Need To Adjust Your Measurements");
     //if not, they need to re-calculate their raised bed measurements
 
 }
