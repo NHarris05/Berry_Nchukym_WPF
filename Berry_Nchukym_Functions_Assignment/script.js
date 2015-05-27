@@ -1,5 +1,7 @@
 /**
  * Created by nchukymharris on 5/27/15.
+ * sec 02
+ * YouTube Earnings
  */
 
  prompt("How Many YouTube Subscribers Do You Have?");//The first user prompt,I will input 62.
@@ -11,7 +13,8 @@
 revenueEstimate(62, 13423); //revenueEstimate is set to hold the viewers and subcribers
 
    function revenueEstimate (i,v){ //main function is going to output the information
-       var revenue = i / v; //the viewers and subscribers are going to be divided to work with the next part which will calculate the estimated earnings.
+       var revenue = i * v; //the viewers and subscribers are going to be multiplied to work with the next part which will calculate the estimated earnings.
      console.log(revenue);
    }
+
 
