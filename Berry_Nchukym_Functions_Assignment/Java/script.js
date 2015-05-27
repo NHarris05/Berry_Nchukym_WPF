@@ -40,8 +40,8 @@ while(s >2){     //if s is greater than 2 print out 6 which is 62
     //*I got  134230  as a result after I input 10 in the user prompt  *//
      return r;
    }
-console.log(revenueEstimate(20));//answer was 268460 after passing
-console.log(revenueEstimate(15));// answer was 201345 after passing/ also checked on my calculator
+console.log(revenueEstimate(20) + " Is Estimated If You Had 20 Videos");//answer was 268460 after passing
+console.log(revenueEstimate(15) + "Is Estimated If You Had 15 Videos");// answer was 201345 after passing/ also checked on my calculator
 
 
 
@@ -60,7 +60,7 @@ monthlyEarnings(134230,.25,2.80);
          var totalCheck = estimate / s;    //divide them both and I got 193.303548387.... then round it off to 193.00
          return totalCheck;
   }
-console.log(total);   // the total printed back 193.303548387-- which I rounded off to 193.00. This is the month
+console.log(total + " Is What Should Expect Each Month From YouTube");   // the total printed back 193.303548387-- which I rounded off to 193.00. This is the month
 // ly estimate earnings
 
 
@@ -71,7 +71,7 @@ var weeklyEarnings = function(days,earnings){   //this is going to determine how
 }
 
 var $ = weeklyEarnings(7,193);     // invoked the earnings
-console.log($);    //printed the result to the console which was rounded to 28.00 a week
+console.log($ + "Is What You Should Expect Each Week From YouTube");    //printed the result to the console which was rounded to 28.00 a week
 
 
 
