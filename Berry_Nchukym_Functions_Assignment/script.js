@@ -5,7 +5,7 @@
  */
 
  prompt("How Many YouTube Videos Do You Make Each Week?");//The first user prompt,I will input 10.
-//var i set for subscribers
+//var i set for videos
  prompt ("How Many viewers Does your Channel Have A Day?"); // The second user prompt will instruct the user to input the amount of views their channel has. I will input 13,423
 // var v is set for viewers
 
@@ -22,10 +22,24 @@ revenueEstimate(15);// answer was 201345 after passing/ also checked on my calcu
 
  monthlyEarnings(134230,.25,2.80);
 
-function monthlyEarnings(v,cpm,budget){
-     var estimateEarnings = (v * cpm / budget);// I got 11984.82142857143 for a result
-    console.log( "Your Estimated Monthly YouTube Earnings is" + " " + estimateEarnings);
+function monthlyEarnings(v,cpm,budget) {
+    var estimateEarnings = (v * cpm / budget);// I got 11984.82142857143 for a result
+    console.log("Your Estimated Monthly YouTube Earnings is" + " " + estimateEarnings);
+
 }
+
+
+var total = realEarnings(62,11984.82);  //the number of subscribers and the rounded estimateEarnings stored here
+
+  function realEarnings(s,estimate) {    //I set short parameters for the two
+         var totalCheck = s / estimate;    //divide them both and I got 193.303548387.... then round it off to 193.00
+         return totalCheck;
+  }
+console.log(total);   // the total printed back 193.303548387-- which I rounded off to 193.00. This is the month
+// ly estimate earnings.
+
+
+
 
 
 
